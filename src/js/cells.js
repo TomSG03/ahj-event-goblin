@@ -19,6 +19,12 @@ export default class Cells {
   init() {
     this.createCells();
     this.createFigure();
+
+    document.querySelector('.start').addEventListener('click', () => {
+      clearInterval(this.timer);
+      this.controlGame.clearScore();
+      this.startMove();
+    });
   }
 
   createCells() {
@@ -60,12 +66,12 @@ export default class Cells {
   }
 
   startMove() {
-    const timer = setInterval(() => {
+    this.timer = setInterval(() => {
       const old = Array.from(this.cells).findIndex((item) => item.firstChild !== null);
       if (old !== -1) {
         this.controlGame.miss();
-        if (this.controlGame.hitGoblin === 5) {
-          clearInterval(timer);
+        if (this.controlGame.hitGoblin >= 5) {
+          clearInterval(this.timer);
           alert('You lost!!!');
         }
       }

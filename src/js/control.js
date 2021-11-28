@@ -23,4 +23,11 @@ export default class Control {
     this.hitGoblin += 1;
     this.goblin.innerHTML = `Goblin: ${this.hitGoblin}`;
   }
+
+  clearScore() {
+    this.hitUser = 0;
+    this.hitGoblin = 0;
+    this.user.innerHTML = `User: ${this.hitUser}`;
+    this.goblin.innerHTML = `Goblin: ${this.hitGoblin}`;
+  }
 }

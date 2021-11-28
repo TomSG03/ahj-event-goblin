@@ -7,6 +7,35 @@ body {
     color: #999;
 }
 
+.control {
+    box-sizing: content-box;
+    width: 360px; 
+    height: 46px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border-radius: 5px;
+    border-style: solid;
+    background-color: aqua;
+    border-color: cadetblue;
+
+    font-size: 1.6rem;
+    text-align: center;
+
+    user-select: none;
+
+    cursor: url('../img/molot.png'), pointer;
+}
+
+.start {
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .info {
     box-sizing: content-box;
     width: 360px; 

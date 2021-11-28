@@ -4,4 +4,6 @@
 
 - [x] Игра с гоблинами
 
+## [Gh-Pages](https://tomsg03.github.io/ahj-event-goblin/)
+
 [![CircleCI](https://circleci.com/gh/TomSG03/ahj-event-goblin/tree/main.svg?style=svg)](https://circleci.com/gh/TomSG03/ahj-event-goblin/tree/main)

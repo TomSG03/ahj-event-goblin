@@ -3,6 +3,7 @@
 ## [Домашнее задание к лекции «Обработка событий»](https://github.com/TomSG03/ahj-homeworks/tree/simplification/events)
 
 - [x] Игра с гоблинами
+- [x] [Галерея изображений](https://github.com/TomSG03/ahj-event-picture)
 
 ## [Gh-Pages](https://tomsg03.github.io/ahj-event-goblin/)
 
